@@ -9,7 +9,7 @@ networks:
 
 services:
   web:
-    image: touch789/php:74-fpm
+    image: touch789/php:74-fpm # 已经编译好的php7.4版本， 内置redis 、swoole拓展
     container_name: web
     networks:
       - docker-compose-network
